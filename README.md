@@ -1,6 +1,6 @@
 # Vue Cli + Typescript + Storybook + Addon Docs Working Example
 
-I've seen a lot of people struggle to get storybook and vue CLI working side-by-side. So here's a working example.
+I've seen a lot of people struggle to get storybook and vue CLI working side-by-side, particularly with the new `addon-docs`. So here's a working example.
 
 Steps I used to create:
 
