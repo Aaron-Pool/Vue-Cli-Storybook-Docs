@@ -1,0 +1,20 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { action } from "@storybook/addon-actions";
+import MyButton from '../components/MyButton.vue';
+
+<Meta title="MDX|Button" component={MyButton} />
+
+# MyButton
+
+With `MDX` we can define a story for `MyButton` right in the middle of our
+markdown documentation.
+
+<Preview>
+  <Story name="Mdx Story for MyButton">
+    {{
+        components: { MyButton },
+        template: '<my-button @click="action">Hello Button</my-button>',
+        methods: { action: action("clicked") }
+    }}
+  </Story>
+</Preview>
