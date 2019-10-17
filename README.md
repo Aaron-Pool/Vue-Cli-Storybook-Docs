@@ -1,24 +1,21 @@
-# storybook-ts-vue
+# Vue Cli + Storybook and Addon Docs Working Example
 
-## Project setup
+## Install dependencies
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+yarn
 ```
 
-### Compiles and minifies for production
+### Activates storybook server and begins code watch
 ```
-yarn build
+yarn storybook:serve
+```
+
+### Builds a static version of storybook
+```
+yarn storybook:build
 ```
 
 ### Lints and fixes files
 ```
-yarn lint
+yarn lint --fix
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
